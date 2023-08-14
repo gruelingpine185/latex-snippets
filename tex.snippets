@@ -1,14 +1,4 @@
-# Structure
-
-snippet bd "Create begin/end document"
-	\begin{document}
-		${0}
-	\end{document}
-
-snippet beg "Create begin/end environment"
-	\begin{${1:env}}
-		${0}
-	\end{${1:env}}
+# General
 
 snippet dc "Create documentclass"
 	\documentclass[${2:options}]{${1:type}}
@@ -27,7 +17,42 @@ snippet dca "Create documentclass article"
 # Includes
 
 snippet use "Use package"
-	\usepackagep{${1:package}}${0}
+	\usepackage{${1:package}}${0}
 
 snippet Use "Use package with options"
-	\usepackagep[${2:options}]{${1:package}}${0}
+	\usepackage[${2:options}]{${1:package}}${0}
+
+# Environments
+
+snippet bd "Create begin/end document"
+	\begin{document}
+		${0}
+	\end{document}
+
+snippet beg "Create begin/end environment"
+	\begin{${1:env}}
+		${0}
+	\end{${1:env}}
+
+snippet ul "Create itemize environment"
+	\begin{itemize}
+		\item ${0}
+	\end{itemize}
+
+snippet ol "Create enumerate environment"
+	\begin{enumerate}
+		\item ${0}
+	\end{enumerate}
+
+snippet desc "Create description environment"
+	\begin{description}
+		\item[${1}] ${0}
+	\end{description}
+
+# Lists
+
+snippet li "List item"
+	\item ${0}
+
+snippet lli "Labeled list item"
+	\item[${1}] ${0}

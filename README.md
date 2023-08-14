@@ -25,12 +25,10 @@ curl -o ~/.config/nvim/snippets/tex.snippets https://raw.githubusercontent.com/g
 
 ## Snippets
 
-### Structure
+### General
 
 | Snippet | Description |
 | ------- | ----------- |
-| bd | Create begin/end document |
-| beg | Create custom begin/end environment |
 | dc | Create documentclass |
 | dca | Create documentclass with article type |
 
@@ -38,8 +36,25 @@ curl -o ~/.config/nvim/snippets/tex.snippets https://raw.githubusercontent.com/g
 
 | Snippet | Description |
 | ------- | ----------- |
-| use | Use package |
 | Use | Use package with options |
+| use | Use package |
+
+### Environments
+
+| Snippet | Description |
+| ------- | ----------- |
+| bd | Create begin/end document |
+| beg | Create custom begin/end environment |
+| desc | Create description environment |
+| ol | Create ordered list (enumerate) environment |
+| ul | Create unordered list (itemize) environment |
+
+### Lists
+
+| Snippet | Description |
+| ------- | ----------- |
+| li | List item |
+| lli | Labeled list item |
 
 ## Contributions
 
