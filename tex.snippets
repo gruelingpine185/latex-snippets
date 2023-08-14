@@ -23,3 +23,11 @@ snippet dca "Documentclass article"
 	]{article}
 
 	${0}
+
+# Includes
+
+snippet use "Use package"
+	\usepackagep{${1:package}}${0}
+
+snippet Use "Use package with options"
+	\usepackagep[${2:options}]{${1:package}}${0}
