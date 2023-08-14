@@ -16,7 +16,12 @@ Assuming the prerequisites have been met, all that's needed now is a `snippets/`
 mkdir ~/.config/nvim/snippets
 ```
 
-And copy the `./tex.snippets` file to the `snippets/` folder that was just made. Now, the snippets are ready to be used in your LaTeX documents.
+And copy the `tex.snippets` file to the `snippets/` folder that was just made. Now, the snippets are ready to be used in your LaTeX documents.
+
+```sh
+# copy snippets to snippets/ folder
+curl -o ~/.config/nvim/snippets/tex.snippets https://github.com/gruelingpine185/latex-snippets/main/tex.snippets?raw=true
+```
 
 ## Contributions
 
