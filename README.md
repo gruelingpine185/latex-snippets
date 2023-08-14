@@ -20,7 +20,7 @@ And copy the `tex.snippets` file to the `snippets/` folder that was just made. N
 
 ```sh
 # copy snippets to snippets/ folder
-curl -o ~/.config/nvim/snippets/tex.snippets https://github.com/gruelingpine185/latex-snippets/main/tex.snippets?raw=true
+curl -o ~/.config/nvim/snippets/tex.snippets https://raw.githubusercontent.com/gruelingpine185/latex-snippets/main/tex.snippets
 ```
 
 ## Snippets
