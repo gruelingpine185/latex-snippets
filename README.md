@@ -23,6 +23,24 @@ And copy the `tex.snippets` file to the `snippets/` folder that was just made. N
 curl -o ~/.config/nvim/snippets/tex.snippets https://github.com/gruelingpine185/latex-snippets/main/tex.snippets?raw=true
 ```
 
+## Snippets
+
+### Structure
+
+| Snippet | Description |
+| ------- | ----------- |
+| bd | Create begin/end document |
+| beg | Create custom begin/end environment |
+| dc | Create documentclass |
+| dca | Create documentclass with article type |
+
+### Includes
+
+| Snippet | Description |
+| ------- | ----------- |
+| use | Use package |
+| Use | Use package with options |
+
 ## Contributions
 
 As mentioned, this repo holds personal snippets, however, if I find use with suggested snippets, I'll be sure to add them. With that aside, if bugs or typos are encountered, feel free to make an issue or fix it with a Pull Request.
